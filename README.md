@@ -31,6 +31,12 @@ docker-compose down
 - Username: root
 - Password: rootpassword
 
+## String connect
+
+```
+mongodb://root:rootpassword@localhost:27018/?authSource=admin
+```
+
 ## How to connect to MongoDB
 
 Via mongo Shell
